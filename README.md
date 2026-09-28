@@ -5,7 +5,7 @@
 ```hcl
 module "vpc-aws" {
   source  = "askarkaizen/vpc-aws/module"
-  version = "0.0.2"
+  version = "0.0.3"
 
   # insert the 1 required variable here
   vpc_cidr = "10.0.0.0/16"
